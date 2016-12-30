@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+	font-family: 'Nunito', sans-serif;
+}
+
+.row > div{
+	/*background:#F4F4F4;*/
+	padding:1em;
+	border-radius:5px;
+}
+
+li a{
+	color:#999797;
+}
+
+
+.btmmargin{
+	margin-bottom:0.4em;
+}
+
+a {
+	text-decoration:none !important;
+}
+
+h1 > a {
+	color:black;
+}

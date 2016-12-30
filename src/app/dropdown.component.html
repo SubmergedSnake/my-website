@@ -1,0 +1,16 @@
+
+
+<div dropdown [(isOpen)]="status.isopen" class="text-center visible-xs">
+    <button id="single-button" type="button" class="btn btn-default btmmargin" dropdownToggle [disabled]="disabled">
+      	Menu </button>
+    <ul dropdownMenu role="menu" aria-labelledby="single-button" style="width:100%;margin-top:-0.1em;">
+     <li><a routerLink="/personal-info"
+		routerLinkActive="active">Personal info</a></li>
+		<li><a routerLink="/aspirations"
+		routerLinkActive="active">Aspirations</a></li>
+		<li><a routerLink="/current-skillset"
+		routerLinkActive="active">Current skillset</a></li>
+    </ul>
+  </div>
+  
+ 

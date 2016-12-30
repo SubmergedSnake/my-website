@@ -1,3 +1,36 @@
-<h1>
-  {{title}}
-</h1>
+
+
+<div class="page-header text-center">
+	<h1>
+		<a routerLink="/">My Portfolio <br class="visible-xs"> <small>built with ng2</small></a>
+	</h1>
+</div>
+
+
+<nav class="text-center hidden-xs btmmargin">
+<ul class="nav nav-pills">
+	<li><a routerLink="/personal-info"
+		routerLinkActive="active">Personal info</a></li>
+		<li><a routerLink="/aspirations"
+		routerLinkActive="active">Aspirations</a></li>
+		<li><a routerLink="/current-skillset"
+		routerLinkActive="active">Current skillset</a></li>
+</ul>
+</nav>
+
+
+
+<dropdown></dropdown>
+
+
+
+
+<!--  
+<my-fader [isVisible]="showFader">
+    Am I visible ?
+  </my-fader>
+  
+  <button (click)="showFader = !showFader"> Toggle </button>
+
+-->
+<router-outlet></router-outlet>

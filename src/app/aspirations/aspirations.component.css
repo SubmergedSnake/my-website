@@ -1,0 +1,28 @@
+ngb-carousel {
+	width:60%;
+	margin:auto;
+}
+
+.carousel-caption {
+	background: rgba(30, 25, 25, 0.47);
+	padding: 0.5em;
+	padding-bottom: 1.5em;
+}
+
+@media screen and (max-width: 480px) {
+	h3 {
+		font-size: 1em;
+	}
+	p {
+		font-size: 0.8em;
+	}
+	ngb-carousel {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:910px) {
+	ngb-carousel {
+		width: 80%;
+	}
+}
