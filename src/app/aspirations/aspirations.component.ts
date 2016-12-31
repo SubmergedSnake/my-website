@@ -5,8 +5,8 @@ import {slideInDownAnimation} from 'app/animations';
   selector: 'app-aspirations',
   animations:[slideInDownAnimation],
   template:`
-  <div style="margin-bottom:3em;">
-  <ngb-carousel>
+  <div class="btmmarg">
+  <ngb-carousel class="globalwidth">
     <template ngbSlide>
       <img src="{{toddler}}" style="width:100%" alt="Pacifier">
       <div class="carousel-caption">
