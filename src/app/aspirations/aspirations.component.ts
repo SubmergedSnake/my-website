@@ -6,23 +6,23 @@ import {slideInDownAnimation} from 'app/animations';
   animations:[slideInDownAnimation],
   template:`
   <div class="btmmarg">
-  <ngb-carousel class="globalwidth">
+  <ngb-carousel class="globalwidth aspirewidth">
     <template ngbSlide>
-      <img src="{{toddler}}" style="width:100%" alt="Pacifier">
+      <img src="{{toddler}}" alt="Pacifier">
       <div class="carousel-caption">
         <h3>Babysteps</h3>
         <p>As it NOW stands, I'm still learning the very basics of software/web development. Loosing the pacifier is my next goal.</p>
       </div>
     </template>
     <template ngbSlide>
-      <img src="{{adolescent}}" style="width:100%" alt="Young gun">
+      <img src="{{adolescent}}" alt="Young gun">
       <div class="carousel-caption">
         <h3>Junior Developer</h3>
         <p>Disinclined to call myself that just yet, though by some standards I might already qualify for this title.</p>
       </div>
     </template>
       <template ngbSlide>
-      <img src="{{younggun}}" style="width:100%" alt="Love and marriage">
+      <img src="{{younggun}}" alt="Love and marriage">
       <div class="carousel-caption">
         <h3>The ball & chain</h3>
         <p>The ultimate goal. Turn development/programming into a love affair. Taxing, yet so fulfilling.</p>

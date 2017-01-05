@@ -1,0 +1,15 @@
+ img{
+	min-width:100px;
+	width:20%;
+	padding-right:30px;
+}
+
+.skills  img {
+	animation-name: slideIn;
+    animation-duration: 2s;
+}
+
+@keyframes slideIn {
+    from {transform:translate(-70px);}
+    to {transform:translate(0px);}
+}
