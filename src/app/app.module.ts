@@ -6,7 +6,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { DropdownModule } from 'ng2-bootstrap/dropdown';
 import { ModalModule } from 'ng2-bootstrap/modal';
 
-import { Routes, RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
@@ -18,13 +18,6 @@ import { DropdownComponent} from './dropdown.component';
 import { ContactComponent } from './contact/contact.component';
 import { ContactMessageFormComponent } from './contact-message-form.component';
 
-const routes: Routes = [
- { path: '', redirectTo: '/welcome', pathMatch: 'full' },
-  { path: 'welcome',  component: WelcomeComponent },
-  { path: 'personal-info',  component: PersonalInfoComponent },
-  { path: 'aspirations',  component: AspirationsComponent },
-  { path: 'current-skillset',  component: CurrentSkillsetComponent }
-]
 
 
 @NgModule({
@@ -43,7 +36,7 @@ const routes: Routes = [
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(routes, { useHash: true }),
+    AppRoutingModule,
     NgbModule.forRoot(),
     DropdownModule.forRoot(),
     ModalModule.forRoot()
