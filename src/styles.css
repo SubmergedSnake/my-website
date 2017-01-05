@@ -2,11 +2,18 @@
 
 body{
 	height:100%;	
-	background-image:url(app/img/eye.jpg);
+	background-image:url(app/img/dahliar.jpg);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
-	background-position:left bottom;
+	background-position: left bottom;
 
+}
+
+@media screen and (min-width:480px){
+	body{
+	background-image:url(app/img/eye.jpg), url(app/img/dahliab.jpg);
+	background-position:left bottom, right bottom;
+}
 }
 
 *{
@@ -32,7 +39,12 @@ a {
 
 h1 > a {
 	color:black;
+	
 }
+
+
+
+
 
 .btmmarg{
 	margin-bottom:3em;

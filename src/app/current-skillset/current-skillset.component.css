@@ -1,6 +1,5 @@
  img{
-	min-width:100px;
-	width:20%;
+	width:150px;
 	padding-right:30px;
 }
 
@@ -13,3 +12,12 @@
     from {transform:translate(-70px);}
     to {transform:translate(0px);}
 }
+
+
+	#text{
+	position:relative;
+	top:2vw;
+}
+
+
+
