@@ -19,7 +19,11 @@ import { ContactComponent } from './contact/contact.component';
 import { ContactMessageFormComponent } from './contact-message-form.component';
 
 const routes: Routes = [
-
+ { path: '', redirectTo: '/welcome', pathMatch: 'full' },
+  { path: 'welcome',  component: WelcomeComponent },
+  { path: 'personal-info',  component: PersonalInfoComponent },
+  { path: 'aspirations',  component: AspirationsComponent },
+  { path: 'current-skillset',  component: CurrentSkillsetComponent }
 ]
 
 
