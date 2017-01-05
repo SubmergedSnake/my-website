@@ -1,10 +1,22 @@
 
+<header>
+<h4 class="text-center">{{title}}</h4>
+</header>
 <div class="container">
-<div class="row">
-<div class="globalwidth text-center btmmarg">
-<p>
-  current-skillset works!
-</p>
+
+<div class="globalwidth btmmarg">
+
+
+<div *ngFor="let skill of skills" class="row skills">
+     <div class="col-sm-12 col-md-2 text-center"><img src="{{skill.url}}" alt="{{skill.alt}}"></div>
+     <div class="col-sm-12 col-md-10 text-center"> <span>{{skill.explanation}}</span></div>
+    </div>
+    
+    <div><h5>Honorable mentions</h5>
+    <p>I have some experience with a couple of CSS libraries, including Bootstrap, Foundation 6 and Materialize.css. And in the above mentioned
+    Spring project we used Maven to manage dependencies, so there's that, too.</p>
+    </div>
+ 
 </div>
-</div>
+
 </div>

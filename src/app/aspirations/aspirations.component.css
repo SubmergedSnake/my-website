@@ -1,5 +1,8 @@
-
-
+@media screen and (min-width:911px) {
+	.aspirewidth {
+		width: 60% !important;
+	}
+}
 .carousel-caption {
 	background: rgba(30, 25, 25, 0.47);
 	padding: 0.5em;
@@ -16,4 +19,20 @@
 	}
 
 }
+
+img{
+	animation: fadeIn;
+    animation-duration: 2s;
+    width:100%;
+}
+
+@keyframes fadeIn {
+    from {opacity:0}
+    to {opacity:1}
+}
+
+ngb-carousel{
+	background:black;
+}
+
 
