@@ -2,7 +2,7 @@
 
 body{
 	height:100%;	
-	background-image:url(app/img/dahliar.jpg);
+	background-image:url(assets/img/dahliar.jpg);
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-position: left bottom;
@@ -11,7 +11,7 @@ body{
 
 @media screen and (min-width:480px){
 	body{
-	background-image:url(app/img/eye.jpg), url(app/img/dahliab.jpg);
+	background-image:url(assets/img/eye.jpg), url(assets/img/dahliab.jpg);
 	background-position:left bottom, right bottom;
 }
 }

@@ -9,9 +9,9 @@ import {slideInDownAnimation} from 'app/animations';
 })
 export class AspirationsComponent  {
 
-    toddler = 'app/img/tutti.jpg';
-    adolescent = 'app/img/mcjoonas.jpg';
-    younggun = 'app/img/wedded.jpg';   
+    toddler = 'assets/img/tutti.jpg';
+    adolescent = 'assets/img/mcjoonas.jpg';
+    younggun = 'assets/img/wedded.jpg';   
     
     @HostBinding('@routeAnimation') routeAnimation = true;
     @HostBinding('style.display')   display = 'block';
