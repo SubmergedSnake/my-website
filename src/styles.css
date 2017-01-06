@@ -4,7 +4,6 @@ body{
 	height:100%;	
 	background-image:url(assets/img/dahliar.jpg);
 	background-repeat:no-repeat;
-	background-attachment:fixed;
 	background-position: left bottom;
 
 }
@@ -13,6 +12,7 @@ body{
 	body{
 	background-image:url(assets/img/eye.jpg), url(assets/img/dahliab.jpg);
 	background-position:left bottom, right bottom;
+	background-attachment:fixed;
 }
 }
 
