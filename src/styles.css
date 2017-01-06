@@ -5,6 +5,8 @@ body{
 	background-image:url(assets/img/dahliar.jpg);
 	background-repeat:no-repeat;
 	background-position: left bottom;
+	background-size:76px 124px;
+	background-attachment:fixed;
 
 }
 
@@ -12,7 +14,7 @@ body{
 	body{
 	background-image:url(assets/img/eye.jpg), url(assets/img/dahliab.jpg);
 	background-position:left bottom, right bottom;
-	background-attachment:fixed;
+	background-size:auto;
 }
 }
 
