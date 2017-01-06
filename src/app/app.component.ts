@@ -11,6 +11,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent { 
     
-    leaf = 'app/img/leaf.png';
+    leaf = 'img/leaf.png';
 
 }
