@@ -43,3 +43,7 @@ li:hover a:after {
 img{
 	height:50px;
 }
+
+a.activated{
+	background:#ffa6a6 !important;
+}
