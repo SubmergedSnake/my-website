@@ -17,6 +17,7 @@ export class CurrentSkillsetComponent {
     @HostBinding('style.position')  position = 'relative';
     
     title = 'This page lists the technologies I have experience with.';
+    nonsense = 'no changes found, aye?';
 
     
      skills: Skill[] = [
