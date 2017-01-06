@@ -4,20 +4,21 @@
 </header>
 <div class="container">
 
-<div class="globalwidth btmmarg">
+<article class="globalwidth btmmarg">
 
 
-<div *ngFor="let skill of skills" class="row skills" style="padding-bottom:2em;">
+<div *ngFor="let skill of skills" class="row skills pb-2">
      <div class="col-sm-12 col-md-2 text-center"><img src="{{skill.url}}" alt="{{skill.alt}}"></div>
      <div class="col-sm-12 col-md-9 offset-md-1 text-center" style="height:120px;"> <span id="text">{{skill.explanation}}</span></div>
     </div>
     
-    <div><h5>Honorable mentions</h5>
+    <section><h5>Honorable mentions</h5>
     <p>I have some experience with a couple of CSS libraries, including Bootstrap, Foundation 6 and Materialize.css. And in the above mentioned
     Spring project we used Maven to manage dependencies, so there's that, too. I recognize JSON syntax, have used AJAX 
-    succesfully a couple of times. Used SASS a couple of times.</p>
-    </div>
+    succesfully a couple of times. Used SASS a couple of times. The images on this website where created/edited with
+    paint.net. Photo editing is really not my game, though.</p>
+    </section>
  
-</div>
+</article>
 
 </div>
