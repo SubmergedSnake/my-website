@@ -19,15 +19,25 @@
 				<div class="modal-body">
 
 					<div class="container">
-						<h1>Hero Form</h1>
+						
 						<form>
 							<div class="form-group">
-								<label for="name">Name</label> <input type="text"
-									class="form-control" id="name" required>
+								<label for="name" tooltip="Who are you?">Name</label> <input type="text"
+									class="form-control" id="name" required
+									[(ngModel)]="model.name" name="name">
+									
 							</div>
 							<div class="form-group">
-								<label for="alterEgo">Alter Ego</label> <input type="text"
-									class="form-control" id="alterEgo">
+								<label for="email" tooltip="What's your email?(not required)">Email</label> <input type="text"
+									class="form-control" id="Email"
+									[(ngModel)]="model.email" name="email">
+									
+							</div>
+							<div class="form-group">
+								<label for="message" tooltip="What's up?">Message</label>
+									
+									<textarea class="form-control" rows="3" id="message"
+									[(ngModel)]="model.message" name="message"></textarea>
 							</div>
 							<button type="submit" class="btn btn-default">Submit</button>
 						</form>

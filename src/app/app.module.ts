@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { DropdownModule } from 'ng2-bootstrap/dropdown';
 import { ModalModule } from 'ng2-bootstrap/modal';
+import { TooltipModule } from 'ng2-bootstrap/tooltip';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -38,7 +39,8 @@ import { ContactMessageFormComponent } from './contact-message-form.component';
     AppRoutingModule, 
     NgbModule.forRoot(),
     DropdownModule.forRoot(),
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
+    TooltipModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

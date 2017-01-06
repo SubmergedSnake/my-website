@@ -5,7 +5,7 @@ import { ContactMessage }    from './contactmessage';
   templateUrl: './contact-form.component.html'
 })
 export class ContactMessageFormComponent {
-  model = new ContactMessage('John Doe', 'johnsemail@doe.com','Test message');
+  model = new ContactMessage('','','');
   submitted = false;
   onSubmit() { this.submitted = true; }
   // TODO: Remove this when we're done
