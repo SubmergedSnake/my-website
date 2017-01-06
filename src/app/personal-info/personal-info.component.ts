@@ -10,8 +10,7 @@ import {slideInDownAnimation} from 'app/animations';
 })
 export class PersonalInfoComponent  {
 
-    myImageUrl = '/app/img/myImageBur.jpg';
-    testRun = 'app/video/testrun2.mp4';
+    winter = 'video/winter.mp4';
     
     @HostBinding('@routeAnimation') routeAnimation = true;
     @HostBinding('style.display')   display = 'block';
