@@ -1,21 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 
-body{
+#background{
 	background-attachment:fixed;
 	background-repeat:no-repeat;
-	min-height:100%;
+	
 }
 
 @media screen and (max-width:799px){
 	
-	body {
+	#background {
 	background-image:url(assets/img/dahliar.jpg);
 	background-position: left bottom;
+	
 	}
 }
 
 @media screen and (min-width:800px){
-	body{
+	#background{
 	background-image:url(assets/img/eye.jpg), url(assets/img/dahliab.jpg);
 	background-position:left bottom, right bottom;
 	background-size:auto;
