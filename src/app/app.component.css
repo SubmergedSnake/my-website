@@ -1,4 +1,8 @@
 
+app-root{
+	height:100%;
+}
+
 ul{
 	display:inline-block;
 }
@@ -47,3 +51,4 @@ img{
 a.activated{
 	background:#ffa6a6 !important;
 }
+
