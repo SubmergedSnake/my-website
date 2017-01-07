@@ -3,6 +3,7 @@
 body{
 	background-attachment:fixed;
 	background-repeat:no-repeat;
+	min-height:100%;
 }
 
 @media screen and (max-width:799px){
@@ -46,11 +47,6 @@ a {
 h1 > a {
 	color:black;
 	
-}
-
-
-div, article, section{
-	background: rgba(0, 0, 0, 0);
 }
 
 
