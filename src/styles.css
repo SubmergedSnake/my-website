@@ -1,13 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
 body{
-		
-	background-image:url(assets/img/dahliar.jpg);
-	background-repeat:no-repeat;
-	background-position: left bottom;
-	background-size:76px 124px;
 	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
 
+@media screen and (max-width:799px){
+	
+	body {
+	background-image:url(assets/img/dahliar.jpg);
+	background-position: left bottom;
+	}
 }
 
 @media screen and (min-width:800px){
