@@ -12,7 +12,8 @@ const routes: Routes = [
   { path: 'welcome',  component: WelcomeComponent },
   { path: 'personal-info',  component: PersonalInfoComponent },
   { path: 'aspirations',  component: AspirationsComponent },
-  { path: 'current-skillset',  component: CurrentSkillsetComponent }
+  { path: 'current-skillset',  component: CurrentSkillsetComponent },
+  
   
  
 ];

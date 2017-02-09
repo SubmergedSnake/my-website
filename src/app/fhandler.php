@@ -45,7 +45,9 @@ if( empty($errors))
 <?php
 echo nl2br($errors);
 ?>
-
+<?php
+echo "There was an error!";
+?>
 
 </body>
 </html>
